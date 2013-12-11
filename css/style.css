@@ -1,0 +1,9 @@
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background: #FFFFFF;
+  color: #444444;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
