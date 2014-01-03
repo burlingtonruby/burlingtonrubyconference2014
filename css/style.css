@@ -11,6 +11,8 @@ body {
 
 a, a:visited {
   color: rgb(100, 100, 100);
+  transition: color 1s;
+  -webkit-transition: color 1s;
 }
 
 a:hover {
@@ -23,14 +25,19 @@ a:hover {
 }
 
 input {
-  border: 0px;
+  border: 1px solid rgba(20, 20, 20, 0.1);
   border-radius: 0px;
-  padding: 12px;
+  padding: 8px 0px;
   text-align: center;
-  margin: 0 auto;
+  margin: 12px auto;
   display: block;
   max-width: 300px;
   width: 100%;
+}
+
+input.button {
+  padding: 12px;
+  border: 0px;
 }
 
 .white {
@@ -41,6 +48,13 @@ input {
 .white input.button {
   color: rgb(255, 255, 255);
   background-color: rgb(135, 200, 80);
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+}
+
+.white input.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(135, 220, 80);
 }
 
 .black {
