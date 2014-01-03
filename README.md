@@ -14,10 +14,10 @@ Install jekyll
 gem install jekyll
 ```
 
-Boot up the jekyll server
+Boot up the jekyll server (and watch for changes)
 
 ```
-jekyll -serve -w
+jekyll serve -w
 ```
 
 Change the source and view the changes in your browser
