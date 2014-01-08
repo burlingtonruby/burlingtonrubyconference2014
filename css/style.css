@@ -11,7 +11,7 @@ a:hover { color: #000; }
   background: url('/images/vermont.jpg') no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 40px 0 40px 0;
+  padding: 50px 0 50px 0;
   margin-bottom: 40px;
   border-bottom: solid 40px #87C850;
 }
@@ -40,8 +40,12 @@ a:hover { color: #000; }
 
 .section {
   border-top: solid 1px #ccc;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.section.first {
+  border: none;
 }
 
 .section h2 {
@@ -66,3 +70,5 @@ a:hover { color: #000; }
 .back:hover {
   background: #3C9A5F;
 }
+
+iframe[id^='twitter-widget-']{ width:100%;}
