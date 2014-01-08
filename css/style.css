@@ -1,63 +1,68 @@
-body {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  background: #FFFFFF;
-  color: #444444;
-  text-align: center;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-
 a, a:visited {
-  color: rgb(100, 100, 100);
-  transition: color 1s;
-  -webkit-transition: color 1s;
+  color: #646464;
+  text-decoration: underline;
 }
 
-a:hover {
-  color: rgb(80, 80, 80);
+a:hover { color: #000; }
+
+.button.success { background: #87C850; }
+
+.banner {
+  background: url('/images/vermont.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  margin-bottom: 40px;
+  border-bottom: solid 40px #87C850;
+}
+
+.banner img {
+  width: 200px;
+  padding-bottom: 40px;
+}
+
+.banner h1, h4, h6 {
+  color: #fff;
+}
+
+.banner h1 {
+  font-weight: 900;
+  border-bottom: solid 1px #fff;
+  display: inline-block;
+  padding: 0 40px 10px 40px;
+  margin-bottom: 20px;
+}
+
+.banner h4, h6 {
+  margin: 0;
+  font-weight: 500
 }
 
 .section {
-  padding: 20px 0;
-  margin: 0 auto;
+  border-top: solid 1px #ccc;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-input {
-  border: 1px solid rgba(20, 20, 20, 0.1);
-  border-radius: 0px;
-  padding: 8px 0px;
-  text-align: center;
-  margin: 12px auto;
+.section h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.back, .back:visited {
+  background: #87C850;
+  color: #fff;
   display: block;
-  max-width: 300px;
   width: 100%;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 20px;
 }
 
-input.button {
-  padding: 12px;
-  border: 0px;
-}
-
-.white {
-  color: rgb(40, 40, 40);
-  background-color: rgb(255, 255, 255);
-}
-
-.white input.button {
-  color: rgb(255, 255, 255);
-  background-color: rgb(135, 200, 80);
-  transition: background-color 1s;
-  -webkit-transition: background-color 1s;
-}
-
-.white input.button:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(135, 220, 80);
-}
-
-.black {
-  color: rgb(255, 255, 255);
-  background-color: rgb(135, 200, 80);
+.back:hover {
+  background: #3C9A5F;
 }
