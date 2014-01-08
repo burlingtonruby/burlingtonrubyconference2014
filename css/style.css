@@ -8,7 +8,7 @@ a:hover { color: #000; }
 .button.success { background: #87C850; }
 
 .banner {
-  background: url('/images/burlington.jpg') no-repeat;
+  background: url('/images/vermont.jpg') no-repeat;
   background-size: cover;
   text-align: center;
   padding: 40px 0 40px 0;
@@ -35,11 +35,7 @@ a:hover { color: #000; }
 
 .banner h4, h6 {
   margin: 0;
-  font-family: "kepler-std", Palatino, Georgia, serif;
-}
-
-.banner h4 {
-  font-style: italic;
+  font-weight: 500
 }
 
 .section {
@@ -68,5 +64,5 @@ a:hover { color: #000; }
 }
 
 .back:hover {
-  background: #87C850;
+  background: #3C9A5F;
 }
