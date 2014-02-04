@@ -56,3 +56,11 @@ button, .button {
 .back:hover {
   background: #131619;
 }
+
+#sky {
+  background-color: #2a303a;
+}
+
+#sky img {
+  width: 100%;
+}
