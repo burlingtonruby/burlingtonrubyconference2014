@@ -51,9 +51,16 @@ button, .button {
   font-weight: 700;
   color: #caccce;
   border: 1px solid #bf8736;
-  background-color: none;
+  background-color: inherit;
 }
 
+.button:hover {
+  background-color: #bf8736;
+}
+
+.button[type=submit] {
+  border: 1px solid #bf8736;
+}
 /* new styles */
 
 .back, .back:visited {
