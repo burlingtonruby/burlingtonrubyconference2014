@@ -19,7 +19,7 @@ h2 {
 }
 
 p, li {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "futura-pt",sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -31,10 +31,15 @@ a {
   font-family: "futura-pt",sans-serif;
   font-style: normal;
   font-weight: 400;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #aeb3b7;
+}
+
+.section {
+  margin-bottom: 20px;
 }
 
 caption {
@@ -64,13 +69,14 @@ button, .button {
 /* new styles */
 
 .back, .back:visited {
-  background: #2a303a;
-  color: #aeb3b7;
-  display: block;
-  width: 100%;
+  background: #2A303A;
+  opacity: .8;
+  color: #fff;
+  position: fixed;
+  top: 0;
   text-decoration: none;
-  padding: 10px 0 10px 10px;
-  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0 0 4px 0;
 }
 
 .back:hover {
@@ -83,4 +89,34 @@ button, .button {
 
 #sky img {
   width: 100%;
+}
+
+img.speaker {
+  border-radius: 4px;
+}
+
+img.speaker:hover {
+  opacity: 0.8;
+}
+
+.speaker-header {
+  margin-bottom: 20px;
+}
+
+.speaker-header img {
+  float:right;
+  height: 120px;
+  border-radius: 4px;
+}
+
+.speaker-header h2 {
+  line-height:120px;
+}
+
+.speaker-body {
+  margin-bottom: 80px;
+}
+
+footer p {
+  font-size: 13px;
 }

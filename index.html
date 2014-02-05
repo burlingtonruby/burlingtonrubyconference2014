@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Burlington Ruby Conference 2014
+title: Home
 meta_description: The 2014 Burlington Ruby Conference in Burlington, Vermont on August 1st, 2nd and 3rd.
 meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 ---
@@ -12,7 +12,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
   </div>
 </div>
 
-<div class="row section first">
+<div class="row section">
   <div class="small-12 medium-6 columns">
     <p>The Call for Proposals is now open. If you are interested in speaking at
       the 2014 Burlington Ruby Conference, apply at the CFP website. The CFP
@@ -22,7 +22,22 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
   </div>
 </div>
 
-<div class="row section second">
+<div class="row section">
+  <div class="small-12 medium-6 columns">
+    <h2>Speakers</h2>
+
+    <ul class="small-block-grid-3">
+      {% for speaker in site.categories.speaker %}
+        <li>
+          <a href="{{ speaker.url }}"><img src="/images/speakers/{{ speaker.photo }}" alt="{{ speaker.title }}" class="speaker"></a>
+          <small>{{ speaker.title }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="row section">
   <div class="small-12 medium-6 columns">
     <h2>Get Updates</h2>
 
