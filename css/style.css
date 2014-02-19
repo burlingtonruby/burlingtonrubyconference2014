@@ -113,10 +113,22 @@ img.speaker:hover {
   line-height:120px;
 }
 
-.speaker-body {
-  margin-bottom: 80px;
-}
+footer { margin-top: 80px !important; }
 
 footer p {
   font-size: 13px;
+}
+
+.pricing-table {
+  border: solid 1px #BF8736;
+  margin-top: 40px;
+}
+
+.pricing-table li.title {
+  background: #BF8736 !important;
+}
+
+.pricing-table li {
+  background: none !important;
+  color: #fff !important;
 }
