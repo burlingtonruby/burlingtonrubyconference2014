@@ -39,6 +39,21 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 
 <div class="row section">
   <div class="small-12 medium-6 columns">
+    <h2>Sponsors</h2>
+
+    <ul class="small-block-grid-1">
+      {% for sponsor in site.categories.stargazer-sponsor %}
+        <li>
+          <a href="{{ sponsor.website }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
+          <br><small>{{ sponsor.title }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="row section">
+  <div class="small-12 medium-6 columns">
     <h2>Sponsorship Opportunities</h2>
 
     <p>Interested in sponsoring the 2014 Burlington Ruby Conference? We have two great sponsorship opportunities to offer this year.
