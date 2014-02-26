@@ -1,0 +1,15 @@
+//
+// Foundation overrides
+//
+
+// Increase the default font size.
+//
+// See:
+//   * https://github.com/zurb/bower-foundation/blob/master/scss/foundation/_settings.scss#L20-L23
+//   * http://cl.ly/image/0e3t1C1Z142N
+//
+$base-font-size: 18px;
+$rem-base: $base-font-size;
+
+$body-font-family: "futura-pt", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$header-font-family: "futura-pt-condensed", 'Helvetica Neue', Helvetica, Arial, sans-serif;
