@@ -79,12 +79,28 @@ button, .button {
   background: #131619;
 }
 
+.tickets {
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background: #131619;
+  padding: 10px;
+
+  .button {
+    padding: 10px;
+    margin: 0 0 0 20px;
+  }
+}
+
 #sky {
   background-color: #2a303a;
 }
 
 #sky img {
   width: 100%;
+  margin-top: 64px;
 }
 
 img.speaker {
