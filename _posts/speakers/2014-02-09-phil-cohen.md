@@ -2,11 +2,11 @@
 layout: speaker
 title: Phil Cohen
 photo: philcohen.jpg
-talk: How to Consume Lots of Data
+talk: Cooking at Shopify - Taming a Busy Kitchen with Many Chefs
 category: speaker
 ---
 
-### How to Consume Lots of Data
+### Cooking at Shopify - Taming a Busy Kitchen with Many Chefs
 
 We use Chef to manage a large and rapidly growing infrastructure at Shopify. Our
 cookbooks are open to development not only by our Operations Team, but by all
