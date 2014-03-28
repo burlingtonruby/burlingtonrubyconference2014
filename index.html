@@ -46,7 +46,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
       {% for speaker in speakers %}
         <li>
           <a href="{{ speaker.url }}"><img src="/images/speakers/{{ speaker.photo }}" alt="{{ speaker.title }}" class="speaker"></a>
-          <small>{{ speaker.title }}</small><br>
+          <span>{{ speaker.title }}</span><br>
           <small>{{ speaker.talk}}</small>
         </li>
       {% endfor %}
