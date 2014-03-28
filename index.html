@@ -42,10 +42,12 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     <h2>Speakers</h2>
 
     <ul class="small-block-grid-3">
-      {% for speaker in site.categories.speaker %}
+      {% assign speakers = site.categories.speaker | sort: 'date' %}
+      {% for speaker in speakers %}
         <li>
           <a href="{{ speaker.url }}"><img src="/images/speakers/{{ speaker.photo }}" alt="{{ speaker.title }}" class="speaker"></a>
-          <small>{{ speaker.title }}</small>
+          <small>{{ speaker.title }}</small><br>
+          <small>{{ speaker.talk}}</small>
         </li>
       {% endfor %}
     </ul>
