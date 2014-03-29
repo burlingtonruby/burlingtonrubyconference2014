@@ -4,6 +4,7 @@ title: Jennifer Eliuk
 photo: jennifereliuk.jpg
 talk: Apprenticeships - I implore you!
 twitter: 7maples
+github: 7maples
 category: speaker
 ---
 

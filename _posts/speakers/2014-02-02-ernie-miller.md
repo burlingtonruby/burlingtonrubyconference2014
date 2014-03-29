@@ -4,6 +4,7 @@ title: Ernie Miller
 photo: erniemiller.jpg
 talk: Keynote
 twitter: erniemiller
+github: ernie
 category: speaker
 ---
 

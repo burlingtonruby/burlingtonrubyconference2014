@@ -4,6 +4,7 @@ title: Mark Bates
 photo: markbates.jpg
 talk: Mild salsa connoisseur
 twitter: markbates
+github: markbates
 category: speaker
 ---
 

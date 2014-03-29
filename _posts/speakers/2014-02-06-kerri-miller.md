@@ -4,6 +4,7 @@ title: Kerri Miller
 photo: kerrimiller.jpg
 talk: How to Interview and Why
 twitter: kerrizor
+github: kerrizor
 category: speaker
 ---
 

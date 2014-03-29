@@ -4,6 +4,7 @@ title: Starr Horne
 photo: starrhorne.jpg
 talk: Five Machine Learning Techniques That You Can Use Today
 twitter: StarrHorne
+github: starrhorne
 category: speaker
 ---
 
