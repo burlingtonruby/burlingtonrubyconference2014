@@ -16,5 +16,12 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     </div>
 
     <div class="speaker-body">{{ page.content | markdownify }}</div>
+    <div class="speaker-links">
+      {% if page.twitter %}
+        <a href="https://twitter.com/{{ page.twitter }}">
+          <i class="fi-social-twitter">@{{ page.twitter }}</i>
+        </a>
+      {% endif %}
+    </div>
   </div>
 </div>
