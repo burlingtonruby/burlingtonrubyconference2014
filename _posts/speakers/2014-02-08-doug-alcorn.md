@@ -3,6 +3,8 @@ layout: speaker
 title: Doug Alcorn
 photo: dougalcorn.jpg
 talk: How to Consume Lots of Data
+twitter: dougalcorn
+github: dougalcorn
 category: speaker
 ---
 

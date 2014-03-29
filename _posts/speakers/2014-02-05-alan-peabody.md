@@ -3,6 +3,8 @@ layout: speaker
 title: Alan Peabody
 photo: alanpeabody.jpg
 talk: Breaking Up With the Asset Pipeline
+twitter: alanpeabody
+github: alanpeabody
 category: speaker
 ---
 

@@ -3,6 +3,8 @@ layout: speaker
 title: Nicole Fenton
 photo: nicolefenton.jpg
 talk: Interface Writing - Code for Humans
+twitter: nicoleslaw
+github: nicoleslaw
 category: speaker
 ---
 

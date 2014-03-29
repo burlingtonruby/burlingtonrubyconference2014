@@ -3,6 +3,8 @@ layout: speaker
 title: Sandi Metz
 photo: sandimetz.jpg
 talk: Keynote
+twitter: sandimetz
+github: skmetz
 category: speaker
 ---
 

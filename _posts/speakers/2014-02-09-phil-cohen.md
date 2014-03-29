@@ -3,6 +3,8 @@ layout: speaker
 title: Phil Cohen
 photo: philcohen.jpg
 talk: Cooking at Shopify - Taming a Busy Kitchen with Many Chefs
+twitter: phlipper
+github: phlipper
 category: speaker
 ---
 
