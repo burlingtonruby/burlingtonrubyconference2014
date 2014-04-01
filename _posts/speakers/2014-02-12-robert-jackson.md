@@ -22,6 +22,6 @@ We will review:
 
 ### About
 
-Robert has plied his trade as a professional developer for more than fifteen years. Starting with VB, C#, and Java code, Robert made the transition to Ruby and eventually to Rails in 2006. Since then, he has become a part of the Ember Release Management Team and a Senior Developer at DockYard.
+Robert has plied his trade as a professional developer for more than fifteen years. Starting with VB, C#, and Java code, Robert made the transition to Ruby and eventually to Rails in 2006. Since then, he has become a part of the Ember Core Team and a Senior Developer at DockYard.
 
 Robert is happily married with two rambunctious little boys. In his spare time he earns his title of grillmaster extraordinaire, nerds out to Dr. Who, and enjoys all things tech.
