@@ -61,8 +61,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     <ul class="small-block-grid-1">
       {% for sponsor in site.categories.stargazer-sponsor %}
         <li>
-          <a href="{{ sponsor.website }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
-          <br><small>{{ sponsor.title }}</small>
+          <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
         </li>
       {% endfor %}
     </ul>
