@@ -71,7 +71,8 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 
     <h3>Supporters</h3>
     <ul class="small-block-grid-4">
-      {% for sponsor in site.categories.supporter-sponsor %}
+      {% assign supporters = site.categories.supporter-sponsor | sort: 'date' %}
+      {% for sponsor in supporters %}
         <li>
           <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
         </li>
