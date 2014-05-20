@@ -154,3 +154,39 @@ footer p {
   background: none !important;
   color: #fff !important;
 }
+
+// styles for schedule
+
+#schedule {
+  table {
+    color: #aeb3b7;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 16px;
+
+    th {
+      text-align: left;
+      padding-bottom: 8px;
+
+      &.time {
+        width: 25%;
+      }
+
+      &.speaker {
+        width: 25%;
+      }
+
+      &.talk{
+        width: 50%;
+      }
+    }
+
+    td {
+      font-size: 80%;
+      line-height: 120%;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-right: 10px;
+    }
+  }
+}
