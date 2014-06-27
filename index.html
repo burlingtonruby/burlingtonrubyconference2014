@@ -68,15 +68,16 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 
     <h3>Lakeside BBQ Sponsor</h3>
     <ul class="small-block-grid-1">
-      <li>
+      <li class="sponsor-logo">
         <a href="http://teamgaslight.com/" title="Gaslight" target="_blank"><img src="/images/sponsors/gaslight_logo.png" alt="Gaslight" class="sponsor"></a>
       </li>
     </ul>
 
     <h3>Stargazer Sponsors</h3>
     <ul class="small-block-grid-1">
-      {% for sponsor in site.categories.stargazer-sponsor %}
-        <li>
+      {% assign sponsors = site.categories.stargazer-sponsor | sort: 'date' %}
+      {% for sponsor in sponsors %}
+        <li class="sponsor-logo">
           <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
         </li>
       {% endfor %}
