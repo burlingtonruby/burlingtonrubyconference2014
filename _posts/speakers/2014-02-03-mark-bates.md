@@ -2,15 +2,15 @@
 layout: speaker
 title: Mark Bates
 photo: markbates.jpg
-talk: A History of Programming and Other Such Ridiculous Things
+talk: Panel: The Future of Ruby
 twitter: markbates
 github: markbates
 category: speaker
 ---
 
-### A History of Programming and Other Such Ridiculous Things
+### Panel: The Future of Ruby
 
-Alan Turing, Ada Lovelace, Mark Zuckerberg, Steve Wozniak. These are all people who’ve never been in my kitchen. I’ve never had even a passing head nod with whilst coming out of the bathroom. What size shoes do they wear? What’s their favorite color? Do they know all the lyrics to Katy Perry’s Roar? I don’t know. But perhaps by taking a look at our collective past we can find these answers, and maybe learn a little bit about our future. Or at the very least we’ll get to see pictures of really big computers from the olden days!
+The sky is falling!!! Life as we know it is over! These pretzels are making me thirsty! There's been a lot of talk recently regarding the health of Ruby. Is it dying? Does it have Lupus? (Hint, it's never Lupus). I sit down with Sandi Metz, Ernie Miller, and Johnny Bourisquot for a candid discussion about what the future holds for one of our favorite languages.
 
 ### About
 
