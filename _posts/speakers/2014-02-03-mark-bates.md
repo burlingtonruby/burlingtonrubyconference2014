@@ -2,7 +2,7 @@
 layout: speaker
 title: Mark Bates
 photo: markbates.jpg
-talk: Panel: The Future of Ruby
+talk: "Panel: The Future of Ruby"
 twitter: markbates
 github: markbates
 category: speaker
