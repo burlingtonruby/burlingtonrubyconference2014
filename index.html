@@ -10,8 +10,8 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     <ul class="inline-list">
       <li><a href="#videos">Videos</a></li>
       <li><a href="#speakers">Speakers</a></li>
-      <li><a href="/schedule.html">Schedule</a></li>
-      <li><a href="/food.html">Places to Eat</a></li>
+      <li><a href="{{site.baseurl}}/schedule.html">Schedule</a></li>
+      <li><a href="{{site.baseurl}}/food.html">Places to Eat</a></li>
       <li><a href="#sponsorship">Sponsorship</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -52,14 +52,14 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
       {% assign speakers = site.categories.speaker | sort: 'date' %}
       {% for speaker in speakers %}
         <li>
-          <a href="{{ speaker.url }}"><img src="/images/speakers/{{ speaker.photo }}" alt="{{ speaker.title }}" class="speaker"></a>
+          <a href="{{site.baseurl}}{{ speaker.url }}"><img src="{{site.baseurl}}/images/speakers/{{ speaker.photo }}" alt="{{ speaker.title }}" class="speaker"></a>
           <span>{{ speaker.title }}</span><br>
           <small>{{ speaker.talk}}</small>
         </li>
       {% endfor %}
     </ul>
 
-    <a href="/schedule.html">View the schedule</a>
+    <a href="{{site.baseurl}}/schedule.html">View the schedule</a>
   </div>
 </div>
 
@@ -91,7 +91,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     <ul class="small-block-grid-1">
       <li>
         <a href="http://developer.constantcontact.com/" title="Constant Contact" target="_blank">
-          <img src="/images/sponsors/constant_contact.png" alt="Constant Contact Logo" class="sponsor">
+          <img src="{{site.baseurl}}/images/sponsors/constant_contact.png" alt="Constant Contact Logo" class="sponsor">
         </a>
         <p class="sponsor-blurb">
           Constant Contact offers a comprehensive online marketing
@@ -112,7 +112,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
     <h3>Lakeside BBQ Sponsor</h3>
     <ul class="small-block-grid-1">
       <li class="sponsor-logo">
-        <a href="http://teamgaslight.com/" title="Gaslight" target="_blank"><img src="/images/sponsors/gaslight_logo.png" alt="Gaslight" class="sponsor"></a>
+        <a href="http://teamgaslight.com/" title="Gaslight" target="_blank"><img src="{{site.baseurl}}/images/sponsors/gaslight_logo.png" alt="Gaslight" class="sponsor"></a>
       </li>
     </ul>
 
@@ -121,7 +121,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
       {% assign sponsors = site.categories.stargazer-sponsor | sort: 'date' %}
       {% for sponsor in sponsors %}
         <li class="sponsor-logo">
-          <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
+          <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="{{site.baseurl}}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
         </li>
       {% endfor %}
     </ul>
@@ -131,7 +131,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
       {% assign supporters = site.categories.supporter-sponsor | sort: 'date' %}
       {% for sponsor in supporters %}
         <li>
-          <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
+          <a href="{{ sponsor.website }}" title="{{ sponsor.title }}" target="_blank"><img src="{{site.baseurl}}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor"></a>
         </li>
       {% endfor %}
     </ul>
@@ -144,8 +144,7 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 
     <p>Interested in sponsoring the 2014 Burlington Ruby Conference? We have two great sponsorship opportunities to offer this year.
     Learn more by clicking below or feel free to shoot us an email at <a href="mailto:info@burlingtonrubyconference.com">info@burlingtonrubyconference.com</a>.</p>
-    <a class="button"
-      href="/sponsorship.html">View Sponsorship Opportunites</a>
+    <a class="button" href="{{site.baseurl}}/sponsorship.html">View Sponsorship Opportunites</a>
   </div>
 </div>
 
@@ -163,6 +162,6 @@ meta_keywords: burlington, ruby, conference, vermont, rails, ruby on rails
 <div class="row section">
   <div class="column">
     <h2>Diversity Statement &amp; Code of Conduct</h2>
-    <p>Be sure to read our <a href="diversity.html">diversity statement</a> and <a href="conduct.html">code of conduct</a>.</p>
+    <p>Be sure to read our <a href="{{site.baseurl}}/diversity.html">diversity statement</a> and <a href="{{site.baseurl}}/conduct.html">code of conduct</a>.</p>
   </div>
 </div>
